@@ -1,0 +1,34 @@
+// Initialize variables to track the amount of gems mined
+let diamondCount = 0;
+let rubyCount = 0;
+let sapphireCount = 0;
+
+// Function to mine a diamond
+function mineDiamond() {
+  diamondCount++;
+  console.log("Mined a diamond! Total diamonds mined: " + diamondCount);
+}
+
+// Function to mine a ruby
+function mineRuby() {
+  rubyCount++;
+  console.log("Mined a ruby! Total rubies mined: " + rubyCount);
+}
+
+// Function to mine a sapphire
+function mineSapphire() {
+  sapphireCount++;
+  console.log("Mined a sapphire! Total sapphires mined: " + sapphireCount);
+}
+
+// Call the mining functions to simulate mining
+mineDiamond();
+mineRuby();
+mineSapphire();
+mineDiamond();
+mineRuby();
+
+// Log the final counts
+console.log("Final diamond count: " + diamondCount);
+console.log("Final ruby count: " + rubyCount);
+console.log("Final sapphire count: " + sapphireCount);
